@@ -1,0 +1,25 @@
+/*
+ * Widget Genre Drama [21/02/18]
+ * https://sawanil.blogspot.com/
+ *
+ */
+
+.yuukithemes-genre li{float:left;width:calc(50% - 10px);text-align:center;position:relative;margin:5px}
+.yuukithemes-genre ul{list-style:none;margin:0 -5px;padding:0}
+.yuukithemes-genre ul:after{content:"";display:block;clear:both}
+.yuukithemes-genre li a{display:block;color:#fff;z-index:10;position:relative;padding:9px;font-weight:700}
+.yuukithemes-genre li a:before{content:"";position:absolute;background:#353638 center no-repeat;background-size:100%;top:0;left:0;width:100%;height:100%;border-radius:4px;filter:grayscale(1) opacity(.6);z-index:10}
+.yuukithemes-genre li a:after{content:"";position:absolute;background:#000;width:100%;height:100%;top:0;left:0;z-index:5;border-radius:4px}
+.yuukithemes-genre li a:hover:before{filter:grayscale(0) opacity(.7)}
+.yuukithemes-genre li a span{display:block;position:relative;z-index:12;}
+.yuukithemes-genre li a[title~=اخبار دراما]:before{background-image:url("https://lh3.googleusercontent.com/-fuO9LcfO8II/WpwmWrUEY9I/AAAAAAAACF4/obQbphUCbwU9Aoc5pdPrdd6mcQKMSr3MACLcBGAs/h120/%25D8%25A7%25D8%25AE%25D8%25A8%25D8%25A7%25D8%25B1%2B%25D8%25AF%25D8%25B1%25D8%25A7%25D9%2585%25D8%25A7.png");}
+.yuukithemes-genre li a[title~=اخبار كيبوب]:before{background-image:url("https://lh3.googleusercontent.com/-P9MFU1AxdCo/WpwmWtriv-I/AAAAAAAACF0/v1B7Hmevguo_hFikqM1hbrTn_kax_CUkgCLcBGAs/h120/%25D8%25A7%25D8%25AE%25D8%25A8%25D8%25A7%25D8%25B1%2B%25D9%2583%25D9%258A%25D8%25A8%25D9%2588%25D8%25A8.png");}
+.yuukithemes-genre li a[title~=تقرير دراما]:before{background-image:url("https://lh3.googleusercontent.com/-wXf1MA2VvPU/WpwmbCcGslI/AAAAAAAACGM/pbvjsTponqcpyXaQP7LfcNpZnS01Mf4wQCLcBGAs/h120/%25D8%25AA%25D9%2582%25D8%25B1%25D9%258A%25D8%25B1%2B%25D8%25AF%25D8%25B1%25D8%25A7%25D9%2585%25D8%25A7.png");}
+.yuukithemes-genre li a[title~=اراء الناس]:before{background-image:url("https://lh3.googleusercontent.com/-psK6lJb5tMo/WpwmZizkqAI/AAAAAAAACGE/m9ovw23Hnw8F7zjGrMBVxxxuvS4APbIhgCLcBGAs/h120/%25D8%25AA%25D8%25B9%25D9%2584%25D9%258A%25D9%2582%25D8%25A7%25D8%25AA.png");}
+.yuukithemes-genre li a[title~=تصميم]:before{background-image:url("https://lh3.googleusercontent.com/-_7Jwb9ChqJI/WpwmX6byvEI/AAAAAAAACGA/-jkxVl15bSA-g5cW8hqeXIS3DE-H1mlNQCLcBGAs/h120/%25D8%25AA%25D8%25B5%25D9%2585%25D9%258A%25D9%2585.png");}
+.yuukithemes-genre li a[title~=قصص]:before{background-image:url("https://lh3.googleusercontent.com/-W6RFl9qUsJI/WpwmaXPkGpI/AAAAAAAACGI/qkbWSJR1mCkYCJL9XlnLf5uh9f5SaGsIwCLcBGAs/h120/%25D9%2582%25D8%25B5%25D8%25B5.png");}
+.yuukithemes-genre li a[title~=اقتباسات]:before{background-image:url("https://lh3.googleusercontent.com/-CQJ8N_76-uc/WpwmW8CjtzI/AAAAAAAACF8/Rrhk3IL-hAwVZrymzxpld3ernadebA_GACLcBGAs/h120/%25D8%25A7%25D9%2582%25D8%25AA%25D8%25A8%25D8%25A7%25D8%25B3%25D8%25A7%25D8%25AA.png");}
+.yuukithemes-genre li a[title~=ابداعات زورنا]:before{background-image:url("https://lh3.googleusercontent.com/-z81Ekgmf7Oo/WpwmWcSaucI/AAAAAAAACFw/afuIwrwGA5cSMxU4F6_H80MLp6UXg0LCgCLcBGAs/h120/%25D8%25A7%25D8%25A8%25D8%25AF%25D8%25A7%25D8%25B9%25D8%25A7%25D8%25AA%2B%25D8%25B2%25D9%2588%25D8%25B1%25D9%2586%25D8%25A7.png");}
+@media screen and (max-width:480px){
+.yuukithemes-genre li{float:none;width:100%}.yuukithemes-genre li a{padding:11px}
+}
